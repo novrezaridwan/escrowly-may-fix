@@ -1,0 +1,30 @@
+@import "../../styles/base/variables";
+.input-wrapper-custom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid $minimal;
+  border-radius: 12px;
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+
+  .input-datepicker-custom {
+    width: 100%;
+    padding: 12px 40px 12px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: $primary;
+  }
+
+  .icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $secondary;
+    pointer-events: none;
+    width: 16px;
+    height: 16px;
+  }
+}

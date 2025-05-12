@@ -1,0 +1,50 @@
+@use "../../styles/base/variables";
+.service-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 49px 20px 48px 32px;
+    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    @media(max-width:767px) {
+        margin-bottom: 10px;
+    }
+    @media(min-width:768px) {
+        &:hover {
+            .service-card-link {
+                opacity: 1;
+            }
+        }
+    }
+    img {
+        margin-bottom: 20px;
+    }
+    
+    h5 {
+        border-top: 1px solid rgba(0,0,0,0.1);
+        padding-top: 28px;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        padding-right: 10px;
+    }
+    .service-card-link {
+        position: absolute;
+        right: 32px;
+        top: 87px;
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0;
+        transition: 0.3s;
+        color: variables.$heading-color;
+        @media(max-width:767px) {
+            display: none;
+        }
+        img {
+            margin-bottom: 0;
+            vertical-align: -3px;
+            margin-left: 2px;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+@use "../../styles/base/variables";
+.section-what-is-escrow {
+    display: flex;
+    .col-left {
+        max-width: none;
+        flex: 0 0 65%;
+        padding-right: 40px;
+        @media(max-width: 1365px) {
+            flex: 0 0 62%;
+        }
+        @media(max-width: 1023px) {
+            flex: 0 0 100%;
+            padding-right: 10px;
+            margin-bottom: 50px;
+        }
+    }
+    .links-nav {
+        flex: 0 0 17.9%;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 12px;
+        padding: 30px 25px;
+        align-items: flex-start;
+        @media(max-width:767px) {
+            flex: 0 0 100%;
+            flex-direction: column;
+            overflow-x: auto;
+            max-width: 100%;
+            margin-bottom: 32px;
+        }
+        a {
+            display: block;
+            text-align: left;
+            font-size: 16px;
+            padding-right: 0;
+            padding-left: 0;
+            line-height: 24px;
+            padding-bottom: 6px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s;
+            background: transparent;
+            cursor: pointer;
+            color: variables.$dark-blue-60;
+            @media(max-width:767px) {
+
+            }
+            &.active {
+                border-bottom: 2px solid variables.$blue;
+                color: variables.$heading-color;
+                font-weight: 500;
+                letter-spacing: -0.65px;
+            }
+            &:hover {
+                border-bottom: 2px solid variables.$blue;
+                color: variables.$heading-color;
+                font-weight: 500;
+                letter-spacing: -0.65px;
+            }
+        }
+    }
+    .fee-calculator .form-input {
+        flex: 0 0 29.5%;
+        max-width: 29.5%;
+        @media(max-width: 1023px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    
+    .dropdown.dropdown-coin {
+        flex: 0 0 26.5%;
+        @media(max-width: 1365px) {
+            flex: 0 0 69.1%;
+        }
+        @media(max-width: 1023px) {
+            flex: 0 0 100%;
+        }
+        &:after {
+            @media(max-width: 1365px) {
+                right: -8px;
+            }
+            @media(max-width: 1023px) {
+                right: 14px;
+            }
+        }
+    }
+    .dropdown.dropdown-domain {
+        flex: 0 0 60%;
+        @media(max-width: 1365px) {
+            flex: 0 0 67%;
+        }
+        @media(max-width: 1023px) {
+            flex: 0 0 100%;
+        }
+    }
+    .links-nav-title {
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+}
+

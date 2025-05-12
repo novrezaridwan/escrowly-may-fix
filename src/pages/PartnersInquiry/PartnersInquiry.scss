@@ -1,0 +1,87 @@
+@import "../../styles/base/variables";
+.custom-class {
+  h2 {
+    color: $primary;
+    text-align: center;
+    margin: 24px 0;
+  }
+  p {
+    font-size: 16px;
+    color: $secondary;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .tag {
+    background: rgba($color: #e9eaed, $alpha: 0.8);
+    border-radius: 20px;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    padding: 4px 16px;
+    width: fit-content;
+    margin: 0 auto 3px auto;
+  }
+  .card {
+    max-width: 600px;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background-color: $surface-0;
+    margin-bottom: 120px;
+    label {
+      color: $primary;
+      font-size: 14px;
+    }
+    .btn-submit {
+      margin-top: 16px;
+      height: 48px;
+      width: 100%;
+      border-radius: 12px;
+      background-color: $primary-500;
+      font-weight: 500;
+      color: $surface-0;
+      font-size: 14px;
+      transition: all;
+      transition-duration: 300ms;
+      cursor: pointer;
+      &:hover {
+        background-color: $primary-700;
+      }
+    }
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .gap-2 {
+    gap: 8px;
+  }
+  .gap-4 {
+    gap: 16px;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .section {
+      padding: 16px;
+    }
+    .card {
+      padding: 16px;
+    }
+    .flex-row {
+      flex-direction: column;
+    }
+  }
+}

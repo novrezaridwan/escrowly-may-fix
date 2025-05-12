@@ -1,0 +1,64 @@
+@import "../../styles/base/variables";
+.input-wrapper {
+  position: relative;
+  width: 100%;
+
+  input {
+    width: 100%;
+    height: 48px;
+    border-radius: 0.75rem;
+    background-color: $surface-0;
+    border: 1px solid $minimal;
+    padding: 0.75rem 1rem;
+    outline: transparent;
+    font-size: 14px;
+    color: $primary;
+    transition: all 0.3s;
+
+    &::placeholder {
+      color: $secondary;
+      font-size: 14px;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px $primary-500;
+    }
+  }
+
+  .suggestions {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0.5rem;
+    background-color: $surface-0;
+    border-radius: 0.75rem;
+    border: 1px solid $minimal;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    padding: 0.5rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 0.5rem;
+      cursor: pointer;
+      border-radius: 0.5rem;
+
+      &:hover {
+        background-color: $surface-1;
+      }
+
+      .username {
+        font-size: 0.875rem;
+        color: $tertiary;
+      }
+
+      .domain {
+        font-size: 0.875rem;
+        color: $primary;
+      }
+    }
+  }
+}

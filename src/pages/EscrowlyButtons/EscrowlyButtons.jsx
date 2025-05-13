@@ -151,8 +151,8 @@ const EscrowlyButtons = () => {
               <div className="row items-center sm-direction-column">
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
-                    alt="Escrowly Users"
+                    src="/images/escrowly-button-01img.webp"
+                    alt="Escrowly Button for Website"
                     className="img-content"
                   />
                 </div>

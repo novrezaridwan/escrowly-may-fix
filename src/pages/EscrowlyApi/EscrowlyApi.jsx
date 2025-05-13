@@ -105,26 +105,26 @@ const EscrowlyApi = () => {
   return (
     <>
       <Helmet>
-        <title>Escrowly Pay - Secure Payment Integration | Escrowly</title>
+        <title>Crypto Escrow Integration for Platforms & Marketplaces | Escrowly.com API</title>
         <meta
           name="description"
-          content="Integrate secure escrow payments into your website with Escrowly Pay. Simple, secure, and reliable payment processing for your business."
+          content="Integrate secure USDT/USDC crypto escrow into your e-commerce, marketplace, or Web3 platform with Escrowly API. Add Buy Now or Make Offer features, manage high-value deals, and enable dispute-free payments with real-time protection."
         />
         <meta
           name="keywords"
-          content="escrow payment integration, secure payment processing, Escrowly Pay, payment gateway, crypto payment integration, secure checkout, payment API, escrow API, payment processing, secure transactions"
+          content="Escrowly API, crypto escrow API, integrate escrow, USDT escrow, USDC escrow, developer crypto integration, secure crypto payments, blockchain escrow API, escrow smart contracts, escrow for marketplaces, real estate crypto escrow"
         />
-        <meta name="author" content="Escrowly Crypto Escrow Team" />
+        <meta name="author" content="Escrowly Developer Team" />
         <meta
           property="og:title"
-          content="Escrowly Pay – Secure Payment Integration"
+          content="Escrowly.com API | Add Crypto Escrow to Your Platform"
         />
         <meta
           property="og:description"
-          content="Add secure escrow payments to your website with Escrowly Pay. Protect your transactions with our reliable payment processing solution."
+          content="Easily integrate crypto escrow into your platform with Escrowly API. Power your website with secure transactions, automated workflows, and fraud prevention for high-value crypto deals."
         />
         <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-        <meta property="og:url" content="https://escrowly.com/escrowly-pay" />
+        <meta property="og:url" content="https://escrowly.com/escrowly-api" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <div>
@@ -139,7 +139,7 @@ const EscrowlyApi = () => {
 
           <Jumbotron
             title="Easily integrate crypto escrow into your platform."
-            desc="Escrowly API delivers absolute trust and protection throughout every transaction on websites that range from e-commerce to marketplaces."
+            desc="Escrowly.com API delivers absolute trust and protection throughout every transaction on websites that range from e-commerce to marketplaces."
             imgContent={imgContent}
             labelPrimary="Open Account"
             labelSecondary="Contact Sales"

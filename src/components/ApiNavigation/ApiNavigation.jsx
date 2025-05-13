@@ -31,13 +31,13 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
     const [isDragging, setIsDragging] = useState(false);
     const startY = useRef(0);
 
-    // Начало перетаскивания
+    // Start of Dragging - Начало перетаскивания
     const handleDragStart = (e) => {
         setIsDragging(true);
         startY.current = e.touches ? e.touches[0].clientY : e.clientY;
     };
 
-    // Перетаскивание
+    // Dragging - Перетаскивание
     const handleDragMove = (e) => {
         if (!isDragging) return;
         const currentY = e.touches ? e.touches[0].clientY : e.clientY;
@@ -48,11 +48,11 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
         }
 
         if (deltaY > 200) {
-            setApiNav(false); // Закрыть меню
+            setApiNav(false); // Close Menu - Закрыть меню
         }
     };
 
-    // Завершение перетаскивания
+    // End of Dragging - Завершение перетаскивания
     const handleDragEnd = () => {
         setIsDragging(false);
         if (dragY < 200) {
@@ -146,6 +146,24 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                             ]}
                         />
                         <li className="separator"></li>
+
+
+                        <ApiNavItem
+                            icon="/img/api-icon-coins-bitcoin.svg"
+                            title="Escrow Button"
+                            subMenuItems={[
+                                "Escrow API Basics",
+                                "Create a Customer",
+                                "Update a Customer",
+                                "Create a Transaction",
+                                "Fetch Transaction Details",
+                                "Listing Your Transactions",
+                                "Listing Partner Transactions"
+                            ]}
+                        />
+                        <li className="separator"></li>
+
+                        
                         <ApiNavItem
                             icon="/img/api-icon-setting.svg"
                             title="Setup & Plugins"

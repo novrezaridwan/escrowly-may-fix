@@ -37,23 +37,23 @@ const EscrowlyOffer = () => {
   return (
     <>
       <Helmet>
-        <title>Escrowly Offer - Secure Negotiation Platform | Escrowly</title>
+        <title>Secure Crypto Escrow for Offers & Negotiated Deals | Escrowly.com Offer</title>
         <meta
           name="description"
-          content="Facilitate secure negotiations and offers with Escrowly Offer. A platform designed for safe and transparent deal-making between buyers and sellers."
+          content="Escrowly Offer enables buyers, sellers, and brokers to negotiate deals safely through protected crypto escrow. Accept, reject, or counter offers with full fund protection using USDT or USDC."
         />
         <meta
           name="keywords"
-          content="escrow negotiation, secure offers, Escrowly Offer, deal negotiation, secure transactions, offer management, negotiation platform, secure deals, escrow platform, transaction security"
+          content="Escrowly Offer, crypto escrow offers, negotiate crypto deals, secure crypto transactions, USDT escrow, USDC escrow, offer-based escrow, buyer seller negotiation, safe crypto escrow, digital goods escrow"
         />
         <meta name="author" content="Escrowly Crypto Escrow Team" />
         <meta
           property="og:title"
-          content="Escrowly Offer – Secure Negotiation Platform"
+          content="Escrowly.com Offer | Protected Crypto Offers and Negotiations"
         />
         <meta
           property="og:description"
-          content="Make and receive secure offers with Escrowly Offer. Our platform ensures safe and transparent negotiations for all parties involved."
+          content="Negotiate with confidence using Escrowly Offer. Our smart escrow process protects funds while buyers and sellers finalize deals. Perfect for digital items, services, and brokered sales."
         />
         <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
         <meta property="og:url" content="https://escrowly.com/escrowly-offer" />

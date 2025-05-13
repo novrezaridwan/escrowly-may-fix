@@ -52,23 +52,23 @@ const EscrowlyButtons = () => {
   return (
     <>
       <Helmet>
-        <title>Escrowly Buttons - Easy Payment Integration | Escrowly</title>
+        <title>Embed Secure Escrow Payments on Your Site | Escrowly.com Button</title>
         <meta
           name="description"
-          content="Add secure escrow payment buttons to your website with Escrowly Buttons. Simple, customizable, and secure payment integration for any website."
+          content="The Escrowly Button lets you embed secure crypto escrow payments directly into your store, product listings, or service pages. Enable instant Buy Now or Make an Offer options with protected transactions using USDT or USDC."
         />
         <meta
           name="keywords"
-          content="escrow buttons, payment buttons, Escrowly Buttons, secure checkout, payment integration, website buttons, escrow integration, secure payments, checkout buttons, payment processing"
+          content="Escrowly Button, embed escrow, crypto escrow button, secure crypto checkout, buy now escrow, make an offer, crypto payment integration, escrow API, USDT USDC payments, escrow for ecommerce, escrow for freelancers"
         />
         <meta name="author" content="Escrowly Crypto Escrow Team" />
         <meta
           property="og:title"
-          content="Escrowly Buttons – Easy Payment Integration"
+          content="Escrowly.com Button | Add Escrow Checkout to Your Listings"
         />
         <meta
           property="og:description"
-          content="Add secure escrow payment buttons to your website in minutes. Our customizable buttons make it easy to accept secure payments."
+          content="Add escrow-secured payments to your platform with Escrowly Button. Let users buy or negotiate with peace of mind using crypto escrow integration. Easy to install. Developer-free setup."
         />
         <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
         <meta

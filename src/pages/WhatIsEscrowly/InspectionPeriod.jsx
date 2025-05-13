@@ -28,7 +28,7 @@ const InspectionPeriod = () => {
                         breadcrumbs={[
                             { title: "Home", url: "/" },
                             { title: "What is Escrowly", url: "/what-is-escrowly" },
-                            { title: "InspectionPeriod", url: "/inspection-period" },
+                            { title: "Inspection Period", url: "/inspection-period" },
                         ]}
                     />
 

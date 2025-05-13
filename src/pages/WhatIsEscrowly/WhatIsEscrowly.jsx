@@ -29,7 +29,7 @@ const WhatIsEscrowly = () => {
                         breadcrumbs={[
                             { title: "Home", url: "/" },
                             { title: "What is Escrowly", url: "/what-is-escrowly" },
-                            { title: "What is Escrow?", url: "/what-is-escrowly" },
+                            { title: "What is Escrowly and How Escrow Works?", url: "/what-is-escrowly" },
                         ]}
                     />
 

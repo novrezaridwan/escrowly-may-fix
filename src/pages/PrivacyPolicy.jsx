@@ -12,7 +12,7 @@ const PrivacyPolicy = () => (
             <meta property="og:title" content="Privacy Policy – Escrowly Crypto Escrow" />
             <meta property="og:description" content="Escrowly's Privacy Policy outlines how we securely handle your personal and transaction data under AML and KYC standards. Trusted worldwide as a crypto-only escrow solution." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/privacy-policy" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>
@@ -33,7 +33,7 @@ const PrivacyPolicy = () => (
                                 <li>Effective Date: [12 December 2024]</li>
                             </ul>
                             <span className="post-date">Last Updated: 17 March 2025</span>
-                            <div className="span time-to-read"><img src="/img/icon-time.svg" alt="" />7 min read</div>
+                            <div className="span time-to-read"><img src="/img/icon-time.svg" alt="" />8 min read</div>
                         </div>
                         <div className="blog-article-content">
                             <h3>1. Introduction</h3>

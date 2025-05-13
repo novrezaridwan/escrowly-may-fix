@@ -60,28 +60,28 @@ const EscrowlyApiGuide = () => {
   return (
     <>
       <Helmet>
-        <title>Escrowly Buttons - Easy Payment Integration | Escrowly</title>
+        <title>Integrate Secure Escrow Payments into Your Platform | Escrowly API Guide</title>
         <meta
           name="description"
-          content="Add secure escrow payment buttons to your website with Escrowly Buttons. Simple, customizable, and secure payment integration for any website."
+          content="Use the Escrowly API Guide to embed secure crypto and non-crypto escrow payments into your platform. Automate transactions, customize workflows, and protect high-value deals."
         />
         <meta
           name="keywords"
-          content="escrow buttons, payment buttons, Escrowly Buttons, secure checkout, payment integration, website buttons, escrow integration, secure payments, checkout buttons, payment processing"
+          content="Escrowly API, crypto escrow API, escrow integration, secure payments API, escrow SDK, automated escrow workflow, digital escrow solution, crypto payment API, embed escrow, programmable escrow"
         />
-        <meta name="author" content="Escrowly Crypto Escrow Team" />
+        <meta name="author" content="Escrowly Developer Team" />
         <meta
           property="og:title"
-          content="Escrowly Buttons – Easy Payment Integration"
+          content="Escrowly.com API Guide | Secure Escrow for Developers and Marketplaces"
         />
         <meta
           property="og:description"
-          content="Add secure escrow payment buttons to your website in minutes. Our customizable buttons make it easy to accept secure payments."
+          content="Integrate programmable escrow payments into your platform using Escrowly’s API. Support for USDT, USDC, fixed-price, milestones, and custom workflows."
         />
         <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
         <meta
           property="og:url"
-          content="https://escrowly.com/escrowly-buttons"
+          content="https://escrowly.com/api-guide"
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
@@ -91,7 +91,7 @@ const EscrowlyApiGuide = () => {
             breadcrumbs={[
               { title: "Home", url: "/" },
               { title: "Developer", url: "/developer" },
-              { title: "Escrowly API Guide", url: "/escrowly-api-guide" },
+              { title: "Escrowly API Guide", url: "/api-guide" },
             ]}
           />
 

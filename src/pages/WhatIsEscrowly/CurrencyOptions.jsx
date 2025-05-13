@@ -99,7 +99,7 @@ const CurrencyOptions = () => {
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
                                         <Link to="/what-is-escrowly">
-                                            What Is Escrow?
+                                            What is Escrowly and How Escrow Works
                                     </Link>
                                         <Link to="/allowed-goods-and-services">
                                             Allowed goods and services

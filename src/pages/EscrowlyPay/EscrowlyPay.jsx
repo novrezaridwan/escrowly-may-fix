@@ -102,8 +102,8 @@ const EscrowlyPay = () => {
                 </div>
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
-                    alt="Escrowly Users"
+                    src="/images/escrowly-api-01.webp"
+                    alt="Escrowly Pay Api"
                     className="img-content"
                   />
                 </div>
@@ -113,8 +113,8 @@ const EscrowlyPay = () => {
               <div className="row items-center sm-direction-column">
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
-                    alt="Escrowly Users"
+                    src="/images/escrowly-api-02.webp"
+                    alt="Escrowly Perfect for Business"
                     className="img-content"
                   />
                 </div>
@@ -178,8 +178,8 @@ const EscrowlyPay = () => {
                 </div>
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
-                    alt="Escrowly Users"
+                    src="/images/escrowly-api-03.webp"
+                    alt="Escrowly Fast and Transparent"
                     className="img-content"
                   />
                 </div>
@@ -189,8 +189,8 @@ const EscrowlyPay = () => {
               <div className="row items-center sm-direction-column">
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
-                    alt="Escrowly Users"
+                    src="/images/escrowly-api-04.webp"
+                    alt="Escrowly Builtin Protection"
                     className="img-content"
                   />
                 </div>

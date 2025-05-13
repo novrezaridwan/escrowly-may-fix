@@ -90,7 +90,7 @@ const EscrowlyApiGuide = () => {
           <Breadcrumbs
             breadcrumbs={[
               { title: "Home", url: "/" },
-              { title: "Developer", url: "/developer" },
+              { title: "Developer", url: "/api-guide" },
               { title: "Escrowly API Guide", url: "/api-guide" },
             ]}
           />

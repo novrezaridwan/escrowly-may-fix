@@ -55,6 +55,7 @@ const ApiDocumentation = () => {
                     <Breadcrumbs 
                         breadcrumbs={[
                             { title: "Home", url: "/" },
+                            { title: "Developer", url: "/api-guide" },
                             { title: "API Documentation", url: "/api-documentation" },
                         ]}
                     />

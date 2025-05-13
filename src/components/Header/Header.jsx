@@ -160,7 +160,7 @@ const Header = ({ className }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link>
+                  <Link to="/partners-application-form">
                     Become a Partner<span>Grow your business and revenue</span>
                   </Link>
                 </li>
@@ -194,8 +194,8 @@ const Header = ({ className }) => {
                 </li>
                 <li>
                   <Link to="/api-guide">
-                    Escrowly API
-                    <span>Get all benefits of Escrowly via API</span>
+                    API Guide
+                    <span>Secure transactions made easy</span>
                   </Link>
                 </li>
                 <li className="bordered">

@@ -23,12 +23,12 @@ const EscrowlyButtons = () => {
     {
       icon: "streamline:desktop-code-solid",
       title: "Easy Integration",
-      desc: "Adding the Escrowly Button to your products, blog pages, or service listings requires only a quick pasting of a basic code block. Join the train of escrow-secured payments today.",
+      desc: "Adding the Escrowly Button to your products, blog pages, or service listings requires only a quick pasting of a basic code block.",
     },
     {
       icon: "material-symbols:target",
       title: "Flexible for Your Business",
-      desc: "Our service supports the exclusive exchange of digital items, freelance services, domain names, physical objects, and many other items. Users ranging from sole entrepreneurs to growing marketplaces will find solutions with the Escrowly Button framework.",
+      desc: "Our service supports the exclusive exchange of digital items, freelance services, domain names, physical objects, and many other items.",
     },
   ];
 
@@ -102,8 +102,7 @@ const EscrowlyButtons = () => {
                   <h3 className="text-center">What is Escrowly Button?</h3>
                   <p className="text-center w-50 mx-auto">
                     The Escrowly Button acts a smart embeddable functionality
-                    for adding secure payment features directly to your website
-                    content, product listings, and online stores. Through simple
+                    for adding secure payment features directly to your website. Through simple
                     user interface activation, buyers and sellers can carry out
                     secure escrow-based transactions that safeguard every
                     participant.

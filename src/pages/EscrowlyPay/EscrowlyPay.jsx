@@ -34,23 +34,23 @@ const EscrowlyPay = () => {
   return (
     <>
       <Helmet>
-        <title>Escrowly Pay - Secure Payment Integration | Escrowly</title>
+        <title>Secure Crypto Payments with Escrow Protection | Escrowly.com Pay</title>
         <meta
           name="description"
-          content="Integrate secure escrow payments into your website with Escrowly Pay. Simple, secure, and reliable payment processing for your business."
+          content="Escrowly Pay provides secure and seamless crypto escrow services for digital purchases, services, domain names, real estate, collectibles, and high-value assets. Powered by smart contract technology and USDT/USDC."
         />
         <meta
           name="keywords"
-          content="escrow payment integration, secure payment processing, Escrowly Pay, payment gateway, crypto payment integration, secure checkout, payment API, escrow API, payment processing, secure transactions"
+          content="Escrowly Pay, crypto escrow, secure crypto payments, USDT escrow, USDC escrow, smart contract payments, domain escrow, real estate crypto escrow, online marketplace escrow, P2P crypto escrow"
         />
         <meta name="author" content="Escrowly Crypto Escrow Team" />
         <meta
           property="og:title"
-          content="Escrowly Pay – Secure Payment Integration"
+          content="Escrowly.com Pay | Trusted Crypto Escrow for Fast, Safe Transactions"
         />
         <meta
           property="og:description"
-          content="Add secure escrow payments to your website with Escrowly Pay. Protect your transactions with our reliable payment processing solution."
+          content="Escrowly Pay secures stablecoin transactions with smart contract escrow. Accept payments, prevent fraud, and protect buyers and sellers with our global crypto escrow system."
         />
         <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
         <meta property="og:url" content="https://escrowly.com/escrowly-pay" />

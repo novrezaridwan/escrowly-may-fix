@@ -154,7 +154,7 @@ const EscrowlyApiGuide = () => {
                 </div>
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
+                    src="/images/escrowly-api-image01.webp"
                     alt="Escrowly Users"
                     className="img-content"
                   />

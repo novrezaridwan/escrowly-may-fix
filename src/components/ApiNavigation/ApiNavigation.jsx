@@ -145,10 +145,7 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                                 "Listing Partner Transactions"
                             ]}
                         />
-                        <li className="separator"></li>
-
-
-                        <ApiNavItem
+                                                <ApiNavItem
                             icon="/img/api-icon-coins-bitcoin.svg"
                             title="Escrow Button"
                             subMenuItems={[
@@ -162,8 +159,6 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                             ]}
                         />
                         <li className="separator"></li>
-
-                        
                         <ApiNavItem
                             icon="/img/api-icon-setting.svg"
                             title="Setup & Plugins"

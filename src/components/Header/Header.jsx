@@ -339,7 +339,7 @@ const Header = ({ className }) => {
                   </Link>
                 </li>
                 <li className="bordered">
-                  <Link>
+                  <Link to="/sign-in">
                     Start A Transaction With Escrowly
                     <span>
                       Sell, buy or broker anything from domain names to real

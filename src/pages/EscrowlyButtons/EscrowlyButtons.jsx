@@ -83,7 +83,7 @@ const EscrowlyButtons = () => {
             breadcrumbs={[
               { title: "Home", url: "/" },
               { title: "Developer", url: "/developer" },
-              { title: "Escrowly Buttons", url: "/escrowly-buttons" },
+              { title: "Escrowly Button", url: "/escrowly-buttons" },
             ]}
           />
 

@@ -39,7 +39,7 @@ const WhatIsEscrowly = () => {
                                 <div className="col col-left">
                                     <SectionHeader
                                         label="Guidelines"
-                                        title="What is Escrow?"
+                                        title="What is Escrowly and How Escrow Works?"
                                         className=""
                                     />
                                     <div className="blog-article-content">
@@ -82,7 +82,7 @@ const WhatIsEscrowly = () => {
                                     <h3 className="links-nav-title">What is Escrowly?</h3>
                                     <div className="links-nav">
                                         <Link className="active" to="/what-is-escrowly">
-                                            What Is Escrow?
+                                            What is Escrowly and How Escrow Works?
                                         </Link>
                                         <Link to="/allowed-goods-and-services">
                                             Allowed goods and services

@@ -96,7 +96,7 @@ const EscrowlyOffer = () => {
                 </div>
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
+                    src="/images/escrowly-offer-01-img.webp"
                     alt="Escrowly Users"
                     className="img-content"
                   />
@@ -107,7 +107,7 @@ const EscrowlyOffer = () => {
               <div className="row items-center sm-direction-column">
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
+                    src="/images/escrowly-offer-02-img.webp"
                     alt="Escrowly Users"
                     className="img-content"
                   />

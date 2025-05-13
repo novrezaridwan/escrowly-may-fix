@@ -188,7 +188,7 @@ const Header = ({ className }) => {
                 </li>
                 <li>
                   <Link to="/escrowly-buttons">
-                    Escrowly Buttons
+                    Escrowly Button
                     <span>Create a button for Escrowly transaction</span>
                   </Link>
                 </li>
@@ -240,8 +240,8 @@ const Header = ({ className }) => {
                 </li>
                 <li>
                   <Link to="/escrowly-buttons">
-                    Escrowly Buttons
-                    <span>Add Escrowly buttons to your website</span>
+                    Escrowly Button
+                    <span>Add Escrowly button to your website</span>
                   </Link>
                 </li>
                 <li>

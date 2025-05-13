@@ -398,34 +398,34 @@ const Header = ({ className }) => {
               </li>
             </ul>
             <a href="tel:+13024448419" className="phone">
-              <img src="/img/icon-phone.svg" alt="" />
-              +1 (302) 444-8419
+              <img src="/img/icon-phone.svg" alt="Call Escrowly" />
+              +1 (302)444-8419
             </a>
             <LanguageDropdown dark={className === "header-dark"} />
             <ul className="menu-social-icons">
               <li>
-                <a href="#instagram">
-                  <img src="/img/social-icon-instagram.svg" alt="" />
+                <a href="https://www.instagram.com/escrowlyholdings/">
+                  <img src="/img/social-icon-instagram.svg" alt="Escrowly Instagram" />
                 </a>
               </li>
               <li>
-                <a href="#facebook">
-                  <img src="/img/social-icon-facebook.svg" alt="" />
+                <a href="https://www.facebook.com/">
+                  <img src="/img/social-icon-facebook.svg" alt="Escrowly Facebook" />
                 </a>
               </li>
               <li>
-                <a href="#youtube">
-                  <img src="/img/social-icon-youtube.svg" alt="" />
+                <a href="https://www.youtube.com/@Escrowly">
+                  <img src="/img/social-icon-youtube.svg" alt="Escrowly Youtube" />
                 </a>
               </li>
               <li>
-                <a href="#twitter">
-                  <img src="/img/social-icon-twitter.svg" alt="" />
+                <a href="https://x.com/escrowly">
+                  <img src="/img/social-icon-twitter.svg" alt="Escrowly Twitter" />
                 </a>
               </li>
               <li>
-                <a href="#linkedin">
-                  <img src="/img/social-icon-linkedin.svg" alt="" />
+                <a href="https://www.linkedin.com/company/escrowly/">
+                  <img src="/img/social-icon-linkedin.svg" alt="Escrowly Linkedin" />
                 </a>
               </li>
             </ul>

@@ -227,7 +227,7 @@ const EscrowlyApi = () => {
               <div className="row items-center sm-direction-column">
                 <div className="col">
                   <img
-                    src="/images/escrowly-api01-image.webp"
+                    src="/images/escrowly-api02-image.webp"
                     alt="Escrowly Users"
                     className="img-content"
                   />

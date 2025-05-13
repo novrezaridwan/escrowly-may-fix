@@ -97,7 +97,7 @@ const EscrowlyOffer = () => {
                 <div className="col">
                   <img
                     src="/images/escrowly-offer-01-img.webp"
-                    alt="Escrowly Users"
+                    alt="Escrowly Built for All Kind of Users"
                     className="img-content"
                   />
                 </div>
@@ -108,7 +108,7 @@ const EscrowlyOffer = () => {
                 <div className="col">
                   <img
                     src="/images/escrowly-offer-02-img.webp"
-                    alt="Escrowly Users"
+                    alt="Escrowly Lock in Deal"
                     className="img-content"
                   />
                 </div>

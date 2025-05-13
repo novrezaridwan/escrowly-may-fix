@@ -145,8 +145,8 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                                 "Listing Partner Transactions"
                             ]}
                         />
-                                                <ApiNavItem
-                            icon="/img/api-icon-coins-bitcoin.svg"
+                        <ApiNavItem
+                            icon="/img/api-icon-file.svg"
                             title="Escrow Button"
                             subMenuItems={[
                                 "Escrow API Basics",

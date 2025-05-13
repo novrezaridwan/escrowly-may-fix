@@ -12,7 +12,7 @@ const LegalSecurityPolicy = () => (
             <meta property="og:title" content="Escrowly Legal Security Policy – Trustworthy Crypto Escrow" />
             <meta property="og:description" content="Escrowly’s Legal Security Policy ensures your crypto transactions meet the highest legal, privacy, and cybersecurity standards globally." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/legal-security-policy" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>

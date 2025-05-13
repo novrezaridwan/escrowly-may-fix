@@ -12,7 +12,7 @@ const TermsAndConditions = () => (
             <meta property="og:title" content="Terms and Conditions – Escrowly Crypto Escrow Agreement" />
             <meta property="og:description" content="By using Escrowly, you agree to our crypto escrow Terms & Conditions including AML/KYC compliance, user eligibility, transaction responsibilities, and prohibited activities." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/terms-and-conditions" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>

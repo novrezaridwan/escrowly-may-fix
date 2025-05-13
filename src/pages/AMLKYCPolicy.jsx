@@ -12,7 +12,7 @@ const AMLKYCPolicy = () => (
             <meta property="og:title" content="AML & KYC Policy – Escrowly Crypto Escrow Compliance" />
             <meta property="og:description" content="Escrowly's AML/KYC Policy outlines how we verify identities and monitor transactions to fight fraud and financial crimes. Stay compliant and secure with crypto escrow." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/aml-kyc-policy" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>

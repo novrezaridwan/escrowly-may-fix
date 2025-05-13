@@ -12,7 +12,7 @@ const RegulatoryCompliance = () => (
             <meta property="og:title" content="Regulatory Compliance – Escrowly Crypto Escrow Legal Standards" />
             <meta property="og:description" content="Escrowly operates under full FinCEN MSB registration and global AML/KYC compliance. See our policies for legal, secure, and fraud-free crypto transactions." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/regulatory-compliance" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>

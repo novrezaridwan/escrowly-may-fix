@@ -12,7 +12,7 @@ const RiskDisclosure = () => (
             <meta property="og:title" content="Escrowly Risk Disclosure – Stay Informed, Stay Secure" />
             <meta property="og:description" content="Review the potential risks associated with crypto transactions, platform use, and market volatility when using Escrowly’s secure escrow services." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/risk-disclosure" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>

@@ -64,7 +64,7 @@ const EscrowlyOffer = () => {
           <Breadcrumbs
             breadcrumbs={[
               { title: "Home", url: "/" },
-              { title: "Developer", url: "/developer" },
+              { title: "Developer", url: "/api-guide" },
               { title: "Escrowly Offer", url: "/escrowly-offer" },
             ]}
           />

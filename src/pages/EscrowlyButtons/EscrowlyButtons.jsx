@@ -82,7 +82,7 @@ const EscrowlyButtons = () => {
           <Breadcrumbs
             breadcrumbs={[
               { title: "Home", url: "/" },
-              { title: "Developer", url: "/developer" },
+              { title: "Developer", url: "/api-guide" },
               { title: "Escrowly Button", url: "/escrowly-buttons" },
             ]}
           />
@@ -140,8 +140,8 @@ const EscrowlyButtons = () => {
                 </div>
                 <div className="col">
                   <img
-                    src="/images/escrowly-pay.jpg"
-                    alt="Escrowly Users"
+                    src="/images/escrowly-button-01img.webp"
+                    alt="Escrowly Button for Website"
                     className="img-content"
                   />
                 </div>

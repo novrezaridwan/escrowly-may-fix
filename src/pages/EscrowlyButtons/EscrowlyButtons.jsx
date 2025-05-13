@@ -140,7 +140,7 @@ const EscrowlyButtons = () => {
                 </div>
                 <div className="col">
                   <img
-                    src="/images/escrowly-button-01img.webp"
+                    src="/images/escrowly-button-02img.webp"
                     alt="Escrowly Button for Website"
                     className="img-content"
                   />
@@ -151,7 +151,7 @@ const EscrowlyButtons = () => {
               <div className="row items-center sm-direction-column">
                 <div className="col">
                   <img
-                    src="/images/escrowly-button-01img.webp"
+                    src="/images/escrowly-button-02img.webp"
                     alt="Escrowly Button for Website"
                     className="img-content"
                   />

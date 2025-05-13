@@ -82,7 +82,7 @@ const Header = ({ className }) => {
           </div>
           <ul className="main-menu">
             <li className="has-sub-menu">
-              <Link>Consumer</Link>
+              <Link to="/what-is-escrowly">Consumer</Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/what-is-escrowly">
@@ -117,7 +117,7 @@ const Header = ({ className }) => {
               </ul>
             </li>
             <li className="has-sub-menu">
-              <Link to="/about-us">Broker</Link>
+              <Link to="/what-is-escrowly">Broker</Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/how-it-works-broker">
@@ -152,7 +152,7 @@ const Header = ({ className }) => {
               </ul>
             </li>
             <li className="has-sub-menu">
-              <Link to="/about-us">Business</Link>
+              <Link to="/what-is-escrowly">Business</Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/what-is-escrowly">
@@ -216,7 +216,7 @@ const Header = ({ className }) => {
               </ul>
             </li>
             <li className="has-sub-menu">
-              <Link to="/about-us">Developer</Link>
+              <Link to="/what-is-escrowly">Developer</Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/api-guide">
@@ -268,7 +268,7 @@ const Header = ({ className }) => {
               </ul>
             </li>
             <li className="has-sub-menu">
-              <Link to="/our-partners">Partners</Link>
+              <Link to="/what-is-escrowly">Partners</Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/partners-application-form">
@@ -306,7 +306,7 @@ const Header = ({ className }) => {
               </ul>
             </li>
             <li className="has-sub-menu">
-              <Link to="/about-us">Help</Link>
+              <Link to="/what-is-escrowly">Help</Link>
               <ul className="sub-menu">
                 <li>
                   <Link to="/what-is-escrowly">

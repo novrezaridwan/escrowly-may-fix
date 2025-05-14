@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logoOverlay from "../../assets/img/logo-overlay.svg";
 import "./Jumbotron.scss";
 
@@ -18,8 +19,12 @@ const Jumbotron = ({
           </h1>
           <p className="desc">{desc}</p>
           <div className="flex flex-row gap-4">
-            <button className="btn-primary">{labelPrimary}</button>
-            <button className="btn-outline">{labelSecondary}</button>
+            <Link to="/sign-up" className="btn-primary">
+              {labelPrimary}
+            </Link>
+            <Link to="/help-desk" className="btn-outline">
+              {labelSecondary}
+            </Link>
           </div>
         </div>
         <img src={imgContent} alt={title} />

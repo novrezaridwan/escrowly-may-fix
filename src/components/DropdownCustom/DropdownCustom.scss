@@ -127,6 +127,15 @@
       text-overflow: ellipsis;
     }
   }
+  .dropdown-avatar,
+  .dropdown-item-avatar {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+  }
+
   .dropdown-button {
     display: flex;
     align-items: center;

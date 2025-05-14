@@ -5,7 +5,7 @@ import "swiper/css";
 
 const FeesTransactions = function () {
   const cryptoTabs = [
-    { id: "tab1", icon: "/img/icon-crypto-tether.svg", label: "Tether (USDT)" },
+    { id: "tab1", icon: "/img/icon-crypto-tether.svg", label: "USDT" },
     // { id: 'tab2', icon: "/img/icon-crypto-cardano.svg", label: "Litecoin (LTC)" },
     // { id: 'tab3', icon: "/img/icon-crypto-bitcoin.svg", label: "Bitcoin (BTC)" },
     // { id: 'tab4', icon: "/img/icon-crypto-etherium.svg", label: "Ethereum (ETH)" },
@@ -15,7 +15,7 @@ const FeesTransactions = function () {
     {
       id: "tab8",
       icon: "/img/icon-crypto-usdc.svg",
-      label: "U.S. Dollar Coin (USDC)",
+      label: "USDC",
     },
   ];
 
@@ -84,7 +84,6 @@ const FeesTransactions = function () {
         <div className="transactions-tabs">
           <Swiper
             className="swipper"
-            spaceBetween={13}
             loop={false}
             speed={"1000"}
             slidesPerView={"auto"}
@@ -191,10 +190,10 @@ const FeesTransactions = function () {
           </h3>
           <p>
             Escrowly.com enables users to evaluate the cost of our crypto escrow
-            service, client can get cost estimates before starting their secure crypto
-            trade with Escrowly's Fee Calculator. Through its Fee Calculator
-            system, Escrowly provides real-time estimates of payment costs that
-            eliminate secret costs or unexpected charges.
+            service, client can get cost estimates before starting their secure
+            crypto trade with Escrowly's Fee Calculator. Through its Fee
+            Calculator system, Escrowly provides real-time estimates of payment
+            costs that eliminate secret costs or unexpected charges.
           </p>
           <h3>How Escrowly Fees Work</h3>
           <p>
@@ -218,22 +217,27 @@ const FeesTransactions = function () {
           <h3>Crypto Curency We Currently Support:</h3>
           <p>Supporting stablecoins for crypto escrow.</p>
           <ul>
-            <li><strong>USDT (Tether)</strong></li>
-            <li><strong>USDC (USD Coin)</strong></li>
+            <li>
+              <strong>USDT (Tether)</strong>
+            </li>
+            <li>
+              <strong>USDC (USD Coin)</strong>
+            </li>
           </ul>
           <h6>Example Scenarios:</h6>
-            <p>
-              1 - Escrow for International Business Deals: <strong>$50,000</strong>{" "}
-              in USDT → Estimated fee: <strong>$900</strong>
-            </p>
-            <p>
-              2 - Escrow for Art and Collectables: <strong>$10,000</strong> in USDC
-              → Estimated fee: <strong>$220</strong>
-            </p>
-            <p>
-              3 - Escrow for Real Estate Closing: <strong>$250,000</strong> in USDT
-              → Estimated fee: <strong>$3,750</strong>
-            </p>
+          <p>
+            1 - Escrow for International Business Deals:{" "}
+            <strong>$50,000</strong> in USDT → Estimated fee:{" "}
+            <strong>$900</strong>
+          </p>
+          <p>
+            2 - Escrow for Art and Collectables: <strong>$10,000</strong> in
+            USDC → Estimated fee: <strong>$220</strong>
+          </p>
+          <p>
+            3 - Escrow for Real Estate Closing: <strong>$250,000</strong> in
+            USDT → Estimated fee: <strong>$3,750</strong>
+          </p>
           <p>
             The calculator will allow you to simulate transaction processes and
             plan for future costs.

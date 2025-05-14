@@ -3,14 +3,6 @@
   position: relative;
   height: 520px;
   width: 100%;
-  // background-color: #0d2350;
-  // background: linear-gradient(
-  //   to bottom,
-  //   #020417 0%,
-  //   #15287a 82%,
-  //   #0d1835 95%,
-  //   #ffffff 100%
-  // );
   background: linear-gradient(
     180deg,
     rgb(2, 4, 24) 51%,
@@ -65,6 +57,9 @@
       cursor: pointer;
       transition: all;
       transition-duration: 300ms;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       &:hover {
         background-color: $primary-700;
         border: 1px solid $primary-700;
@@ -82,6 +77,9 @@
       cursor: pointer;
       transition: all;
       transition-duration: 300ms;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       &:hover {
         background-color: $surface-0;
         color: $primary;

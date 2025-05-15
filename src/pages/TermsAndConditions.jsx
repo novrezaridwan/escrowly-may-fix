@@ -43,7 +43,7 @@ const TermsAndConditions = () => (
                             <h3>2. Key Policies & Agreements</h3>
                             <p>As an Escrowly user, you must follow all policies incorporated into these Terms & Conditions:</p>   
                             <ol>
-                                <li>a. <Link to="/privacy-policy" className="font-weight-nonboldit text-primary-custom"> Privacy Policy:</Link>{" "} It defines the processes to collect and utilize your data as well as protect your information.</li>
+                                <li>a. Privacy Policy: It defines the processes to collect and utilize your data as well as protect your information.</li>
                                 <li>b. AML/KYC Policy: Our anti-money laundering and know-your-customer policy consists of two important documents for our regulatory compliance.</li>
                                 <li>c. Regulatory Compliance Policy: Our adherence to financial and legal frameworks.</li>
                                 <li>d. Legal Security Policy: This document maintains protection for users while managing their transactions.</li>

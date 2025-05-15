@@ -194,8 +194,7 @@ const DisbursementsMethods = () => {
                       <li>Escrow for Car Dealership Payments</li>
                     </ul>
                     <p>
-                      Through its API feature, the system conducts secure crypto
-                      escrow transactions by managing funds both before and
+                      Through its API feature, the system conducts {" "}<Link to="/crypto-escrow-services" className="font-weight-nonboldit text-primary-custom">secure crypto escrow</Link>{" "}, transactions by managing funds both before and
                       after validation.
                     </p>
                     <h3>
@@ -219,7 +218,7 @@ const DisbursementsMethods = () => {
                       international business deals.
                     </p>
                     <h6>
-                      Join Escrowly.com now for safe and{" "}<Link to="/crypto-escrow-services" className="font-weight-nonboldit text-primary-custom"> secure crypto escrow</Link>{" "},
+                      Join Escrowly.com now for safe and secure crypto escrow
                       trusted worldwide as the best online escrow system
                     </h6>
                   </div>

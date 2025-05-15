@@ -181,7 +181,7 @@ const DisbursementsMethods = () => {
                     />
                     <h3>Enjoy Integrated Disbursement with Escrowly.com API</h3>
                     <p>
-                      Thanks to our Escrowly API, developers and companies can
+                      Thanks to our{" "}<Link to="/escrowly-api" className="font-weight-nonboldit text-primary-custom"> Escrowly API</Link>{" "}, developers and companies can
                       automate payments to initiate when specific criteria are
                       fulfilled without needing human input.
                     </p>

@@ -39,7 +39,7 @@ const GetStarted = () => (
                     <ServiceCard
                         icon="/img/service-1.svg"
                         title="Crypto Escrow Services"
-                        text="Secure crypto escrow transactions for goods, services, and contracts with full protection."
+                        text="Secure crypto escrow for digital goods, services, and online items with full protection."
                         url="/crypto-escrow-services"
                     />
                 </div>
@@ -47,7 +47,7 @@ const GetStarted = () => (
                     <ServiceCard
                         icon="/img/service-2.svg"
                         title="Domain Name Escrow"
-                        text="Guarantee a safe and smooth transfer of domain ownership with escrow protection."
+                        text="Guarantee a safe & smooth domain name ownership transfer with escrow protection."
                         url="/domain-name-escrow"
                     />
                 </div>
@@ -87,7 +87,7 @@ const GetStarted = () => (
                     <ServiceCard
                         icon="/img/service-7.svg"
                         title="Luxury Items Escrow "
-                        text="Buy and sell high-value items like jewelry, watches, and collectibles with assurance."
+                        text="Buy and sell high-value items like gold, jewelry, watches, and collectibles with assurance."
                         url="/luxury-items-escrow"
                     />
                 </div>

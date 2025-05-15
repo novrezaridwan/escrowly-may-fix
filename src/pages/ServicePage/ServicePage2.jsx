@@ -235,7 +235,7 @@ const ServicePage2 = () => (
                                 <p>DAOs operating in the cryptocurrency space represent a new development that might reshape the outlook of crypto escrow services. Community members in DAOs gain voting rights to decide operational choices under their decentralized governance framework.</p>
                                 <p>The development of crypto escrow services depends on three key elements: blockchain technology growth, AI automated systems, and ongoing regulatory modifications. The global digital economy will depend heavily on crypto escrow services as technology progresses because these services will accelerate their development toward increased security along with wider adoption.</p>
                                 <Button 
-                                    url="#get-started"
+                                    url="/sign-in"
                                     text="Get Started Now"
                                     icon="/img/btn-arrow-right.svg"
                                     delay={0}
@@ -245,13 +245,83 @@ const ServicePage2 = () => (
                             <div className="col col-right">
                                 <h4>Other Services</h4>
                                 <Button 
-                                    url="#get-started"
+                                    url="/services"
                                     text="All Services"
                                     icon="/img/btn-arrow-right-dark.svg"
                                     delay={0}
                                     className="btn btn-link-dark"
                                 />  
                                 
+                                <div className="service-page-carousel-wrapper">
+                                    <motion.div
+                                        variants={{
+                                            hidden: { opacity: 0 },
+                                            visible: { opacity: 1, transition: { duration: 0.6, delay: 0.8 } }
+                                        }}
+                                    >
+                                        <Swiper
+                                            // onSwiper={handleSwiper}
+                                            speed={1000}
+                                            loop={true} 
+                                            // slidesPerView="auto"
+                                            modules={[Navigation, Scrollbar, Grid]}
+                                            scrollbar={{
+                                                hide: false,
+                                                dragSize: 250
+                                            }}
+                                            breakpoints={{
+                                                320: { 
+                                                    spaceBetween: 12,
+                                                    slidesPerView: "auto",  
+                                                    grid: {
+                                                        rows: 1,  
+                                                        fill: "row"
+                                                    },
+                                                    scrollbar:{
+                                                        hide: false,
+                                                        dragSize: 101
+                                                    }
+                                                }, 
+                                                768: { 
+                                                    spaceBetween: 0,
+                                                    slidesPerView: 1, 
+                                                    loop: true,
+                                                    loopAddBlankSlides: true,
+                                                    loopAdditionalSlides: 4,
+                                                    grid: {
+                                                        rows: 3, 
+                                                    },
+                                                    scrollbar:{
+                                                        hide: true,
+                                                        dragSize: 250
+                                                    }
+                                                }
+                                            }}
+                                        >
+                                            <SwiperSlide style={{ width: 'auto' }}>
+                                                <ServiceCard
+                                                    icon="/img/icon-hiw-3.svg"
+                                                    title="General Escrow Services "
+                                                    text="Secure transactions for goods, services, and contracts with full protection"
+                                                />
+                                            </SwiperSlide>
+                                            <SwiperSlide style={{ width: 'auto' }}>
+                                                <ServiceCard
+                                                    icon="/img/icon-hiw-3.svg"
+                                                    title="Domain Name Escrow"
+                                                    text="Ensure a safe and smooth transfer of domain ownership with escrow protection"
+                                                />
+                                            </SwiperSlide>
+                                            <SwiperSlide style={{ width: 'auto' }}>
+                                                <ServiceCard
+                                                    icon="/img/icon-hiw-3.svg"
+                                                    title="Motor Vehicle Escrow "
+                                                    text="Buy or sell vehicles confidently with funds securely held until transfer"
+                                                />
+                                            </SwiperSlide>
+                                        </Swiper>
+                                    </motion.div>
+                                </div>
                             </div>
                         </div>
                     </div>

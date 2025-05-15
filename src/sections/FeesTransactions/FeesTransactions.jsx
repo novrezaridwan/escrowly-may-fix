@@ -81,7 +81,7 @@ const FeesTransactions = function () {
   return (
     <section className="section section-fees-transactions">
       <div className="container">
-        <div className="transactions-tabs">
+        <div className="transactions-tabs custom-tabs">
           <Swiper
             className="swipper"
             loop={false}

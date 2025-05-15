@@ -101,12 +101,17 @@
   }
 }
 
+.custom-tabs{
 .swiper-wrapper {
   display: flex;
   gap: 8px;
   .swiper-slide {
     width: calc(50% - 4px) !important;
   }
+}
+}
+.swiper-wrapper {
+  display: flex;
 }
 .transactions-tabs {
   background: #eeeeee;

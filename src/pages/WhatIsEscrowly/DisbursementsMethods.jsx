@@ -219,7 +219,7 @@ const DisbursementsMethods = () => {
                       international business deals.
                     </p>
                     <h6>
-                      Join Escrowly.com now for safe and secure crypto escrow,
+                      Join Escrowly.com now for safe and{" "}<Link to="/crypto-escrow-services" className="font-weight-nonboldit text-primary-custom"> secure crypto escrow</Link>{" "},
                       trusted worldwide as the best online escrow system
                     </h6>
                   </div>

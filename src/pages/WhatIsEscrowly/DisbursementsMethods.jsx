@@ -68,7 +68,7 @@ const DisbursementsMethods = () => {
                         to="/"
                         className="font-weight-nonboldit text-primary-custom"
                       >
-                        fund disbursement
+                        fund disbursements
                       </Link>{" "}
                       to the correct destinations after completing any
                       transaction for freelancers, investors, business owners,

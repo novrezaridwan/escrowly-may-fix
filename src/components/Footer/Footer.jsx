@@ -331,7 +331,7 @@ const Footer = () => {
                         alt="Trustpilot Logo"
                       />
                       <p>
-                        Based on <a href="https://www.trustpilot.com/review/escrowly.com">856 reviews</a>
+                        Based on <a href="https://www.trustpilot.com/review/escrowly.com">588 reviews</a>
                       </p>
                     </div>
                   </div>
@@ -358,7 +358,7 @@ const Footer = () => {
                   Escrowly LLC is a registered Money Services Business (MSB)
                   with FinCEN and complies with all AML/KYC regulations.
                   <br />
-                  We are not a bank or a legal advisory firm. Learn more at 
+                  We are not a bank or a legal advisory firm. Learn more  
                   <a
                     href="https://www.fincen.gov/"
                     target="_blank"

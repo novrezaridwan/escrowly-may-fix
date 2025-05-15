@@ -44,11 +44,11 @@ const TermsAndConditions = () => (
                             <h3>2. Key Policies & Agreements</h3>
                             <p>As an Escrowly user, you must follow all policies incorporated into these Terms & Conditions:</p>   
                             <ol>
-                                <li>a. {" "}<Link to="/crypto-escrow-services" className="font-weight-nonboldit text-primary-custom">Privacy Policy</Link>{" "},: It defines the processes to collect and utilize your data as well as protect your information.</li>
-                                <li>b. AML/KYC Policy: Our anti-money laundering and know-your-customer policy consists of two important documents for our regulatory compliance.</li>
-                                <li>c. Regulatory Compliance Policy: Our adherence to financial and legal frameworks.</li>
-                                <li>d. Legal Security Policy: This document maintains protection for users while managing their transactions.</li>
-                                <li>e. Risk Disclosure Statement: This statement details the hazards that appear when dealing with cryptocurrency operations.</li>
+                                <li>a. {" "}<Link to="/privacy-policy" className="font-weight-nonboldit text-primary-custom">Privacy Policy</Link>{" "}: It defines the processes to collect and utilize your data as well as protect your information.</li>
+                                <li>b. {" "}<Link to="/aml-kyc-policy" className="font-weight-nonboldit text-primary-custom">AML/KYC Policy</Link>{" "}: Our anti-money laundering and know-your-customer policy consists of two important documents for our regulatory compliance.</li>
+                                <li>c. {" "}<Link to="/regulatory-compliance" className="font-weight-nonboldit text-primary-custom">Regulatory Compliance Policy</Link>{" "}: Our adherence to financial and legal frameworks.</li>
+                                <li>d. {" "}<Link to="/legal-security-policy" className="font-weight-nonboldit text-primary-custom">Legal Security Policy</Link>{" "}: This document maintains protection for users while managing their transactions.</li>
+                                <li>e. {" "}<Link to="/risk-disclosure" className="font-weight-nonboldit text-primary-custom">Risk Disclosure Statement</Link>{" "}: This statement details the hazards that appear when dealing with cryptocurrency operations.</li>
                             </ol>
                             <h3>3. Eligibility & User Responsibilities</h3>
                             <p>To use Escrowly:</p>   

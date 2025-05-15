@@ -7,7 +7,7 @@ import ServiceCard from "../components/ServiceCard/ServiceCard";
 const GetStarted = () => (
     <>
         <Helmet>
-            <title>Get Started| Trusted Crypto Escrow Services with Escrowly.com</title>
+            <title>Get Started | Trusted Crypto Escrow Services with Escrowly.com</title>
             <meta name="description" content="Start using Escrowly to securely buy, sell, or exchange assets with crypto escrow. Protect domain names, vehicles, real estate, luxury goods, and more. Get started in minutes." />
             <meta name="keywords" content="crypto escrow, Escrowly, secure crypto transactions, USDT escrow, USDC escrow, domain escrow, vehicle escrow, real estate escrow, milestone escrow, digital goods escrow, luxury item escrow" />
             <meta name="author" content="Escrowly Team" />

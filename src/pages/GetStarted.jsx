@@ -1,6 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs";
+import SectionHeader from "../components/SectionHeader/SectionHeader";
+import ServiceCard from "../components/ServiceCard/ServiceCard";
 
 const GetStarted = () => (
     <>
@@ -25,44 +27,81 @@ const GetStarted = () => (
                     ]}
                 />
                 
-                <section className="section-blog-article">
-                    <div className="container">
-                        <h1>Get Started</h1>
-                        <div className="post-meta">
-                            <ul className="post-categories">
-                                <li>Finance & Security</li>
-                            </ul>
-                            <span className="post-date">February 10, 2024</span>
-                            <div className="span time-to-read"><img src="/img/icon-time.svg" alt="" />4 min read</div>
-                        </div>
-                        <div className="blog-article-content">
-                            <p>In today’s fast-paced digital economy, security in financial transactions is more critical than ever. Whether you're a freelancer, business owner, or online seller, ensuring that payments are processed safely and fairly is essential. Escrowly offers a cutting-edge escrow service designed to protect both buyers and sellers in cryptocurrency transactions, eliminating risks and fostering trust.</p>
-                            <h3>How Escrowly Ensures Safe Transactions</h3>
-                            <p>Our platform follows a straightforward process to guarantee security for both buyers and sellers:</p>   
-                            <ol>
-                                <li>1. Transaction Agreement – The buyer and seller agree to the terms of the deal, ensuring clarity and mutual understanding</li>
-                                <li>2. Funds Secured – The buyer deposits cryptocurrency into our escrow system, keeping it securely stored</li>
-                                <li>3.Delivery & Confirmation – The seller delivers the product or service, and the buyer verifies satisfaction</li>
-                                <li>4. Funds Released – Once both parties confirm the terms are met, Escrowly transfers the funds to the seller, completing the transaction securely</li>
-                            </ol>
-                            <blockquote>At Escrowly, we prioritize security and transparency in digital transactions. By leveraging cutting-edge escrow technology, we protect buyers and sellers from fraud, ensuring every payment is safe, verified, and reliable. Join us in building a more secure digital economy</blockquote>
-                            <p>Escrowly provides a seamless and transparent way to conduct financial transactions, ensuring that funds are held securely until both parties fulfill their agreed-upon terms. By integrating an escrow system with cryptocurrency, we make digital payments safer, more efficient, and more reliable.</p>
-                            <h4>Benefits of Using Escrowly</h4>
-                            <p>Escrowly offers a reliable and secure platform for businesses and individuals engaged in online transactions. By utilizing advanced technologies and best practices, Escrowly ensures that all parties involved in a transaction can have peace of mind. Here’s how Escrowly protects your interests:</p>
-                            <ul>
-                                <li>Fraud Prevention: Ensures that payments are only processed when conditions are met.</li>
-                                <li>Secure Crypto Transactions: Reduces the risks of scams in the volatile crypto market.</li>
-                                <li>Trust & Transparency: Builds confidence between buyers and sellers, fostering long-term business relationships.</li>
-                                <li>Global Reach: Allows businesses and freelancers to operate securely across international borders.</li>
-                                <li>Automated Process: Simplifies complex transactions with a user-friendly system.</li>
-                            </ul>
-                            <h6>Future-Proof Your Transactions with Escrowly</h6>
-                            <p>As digital transactions continue to evolve, businesses and individuals need a secure and reliable payment system that adapts to changing financial landscapes. Escrowly is committed to providing the highest level of security for cryptocurrency transactions, ensuring that your payments are protected every step of the way.</p>
-                            <p>Ready to safeguard your digital transactions? Explore Escrowly today and experience the future of secure online payments.</p>
-                        </div>
-                    </div>
-                </section> 
-            </main>
+<section className="section-escrowly-services">
+        <div className="container">
+            <SectionHeader 
+                label="Escrowly Services"
+                title="Secure & Transparent Crypto Escrow Services"
+                className=""
+            />
+            <div className="escrowly-services-list row">
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-1.svg"
+                        title="Crypto Escrow Services"
+                        text="Secure crypto escrow transactions for goods, services, and contracts with full protection."
+                        url="/crypto-escrow-services"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-2.svg"
+                        title="Domain Name Escrow"
+                        text="Guarantee a safe and smooth transfer of domain ownership with escrow protection."
+                        url="/domain-name-escrow"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-3.svg"
+                        title="Motor Vehicle Escrow "
+                        text="Buy or sell vehicles confidently with crypto funds securely held until transfer."
+                        url="/motor-vehicle-escrow"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-4.svg"
+                        title="Milestone Transactions"
+                        text="Release payments in stages for large projects with escrow, ensuring trust and accountability."
+                        url="/milestone-transactions-escrow"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-5.svg"
+                        title="Online Goods & Digital Items"
+                        text="Secure online purchases by using crypto escrow, including software and other digital goods."
+                        url="/online-goods-digital-items-escrow"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-6.svg"
+                        title="Stock & Investment Escrow "
+                        text="Secure stock trades and asset agreements with trusted crypto escrow services."
+                        url="/stock-investment-escrow"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-7.svg"
+                        title="Luxury Items Escrow "
+                        text="Buy and sell high-value items like jewelry, watches, and collectibles with assurance."
+                        url="/luxury-items-escrow"
+                    />
+                </div>
+                <div className="col">
+                    <ServiceCard
+                        icon="/img/service-8.svg"
+                        title="Real Estate Escrow"
+                        text="Protect real estate transfers with crypto escrow until all terms are fulfilled."
+                        url="/real-estate-escrow"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>            </main>
         </div>
     </>
 );

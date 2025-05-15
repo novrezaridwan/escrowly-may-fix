@@ -129,27 +129,27 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/service-page">Domain Name Escrow</Link>
+                      <Link to="/domain-name-escrow">Domain Name Escrow</Link>
                     </li>
                     <li>
-                      <Link to="/service-page3">Motor Vehicle Escrow</Link>
+                      <Link to="/motor-vehicle-escrow">Motor Vehicle Escrow</Link>
                     </li>
                     <li>
-                      <Link to="/service-page4">Milestone Transactions</Link>
+                      <Link to="/milestone-transactions-escrow">Milestone Transactions</Link>
                     </li>
                     <li>
-                      <Link to="/service-page5">
+                      <Link to="/online-goods-digital-items-escrow">
                         Online Goods & Digital Items
                       </Link>
                     </li>
                     <li>
-                      <Link to="/service-page6">Stock & Investment Escrow</Link>
+                      <Link to="/stock-investment-escrow">Stock & Investment Escrow</Link>
                     </li>
                     <li>
-                      <Link to="/service-page7">Luxury Items Escrow</Link>
+                      <Link to="/luxury-items-escrow">Luxury Items Escrow</Link>
                     </li>
                     <li>
-                      <Link to="/service-page8">Real Estate Escrow</Link>
+                      <Link to="/real-estate-escrow">Real Estate Escrow</Link>
                     </li>
                   </ul>
                 </li>

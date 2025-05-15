@@ -85,14 +85,14 @@ function MainLayout() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-article" element={<BlogArticle />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/service-page" element={<ServicePage />} />
+        <Route path="/domain-name-escrow" element={<ServicePage />} />
         <Route path="/crypto-escrow-services" element={<ServicePage2 />} />
-        <Route path="/service-page3" element={<ServicePage3 />} />
-        <Route path="/service-page4" element={<ServicePage4 />} />
-        <Route path="/service-page5" element={<ServicePage5 />} />
-        <Route path="/service-page6" element={<ServicePage6 />} />
-        <Route path="/service-page7" element={<ServicePage7 />} />
-        <Route path="/service-page8" element={<ServicePage8 />} />
+        <Route path="/motor-vehicle-escrow" element={<ServicePage3 />} />
+        <Route path="/milestone-transactions-escrow" element={<ServicePage4 />} />
+        <Route path="/online-goods-digital-items-escrow" element={<ServicePage5 />} />
+        <Route path="/stock-investment-escrow" element={<ServicePage6 />} />
+        <Route path="/luxury-items-escrow" element={<ServicePage7 />} />
+        <Route path="/real-estate-escrow" element={<ServicePage8 />} />
         <Route path="/how-it-works" element={<HowItWorksPage />} />
         <Route path="/fee-calculator" element={<FeeCalculatorPage />} />
         <Route path="/api-documentation" element={<ApiDocumentation />} />

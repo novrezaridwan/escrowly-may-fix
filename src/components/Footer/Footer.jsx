@@ -331,7 +331,7 @@ const Footer = () => {
                         alt="Trustpilot Logo"
                       />
                       <p>
-                        Based on <a href="#trustpilot">856 reviews</a>
+                        Based on <a href="https://www.trustpilot.com/review/escrowly.com">856 reviews</a>
                       </p>
                     </div>
                   </div>
@@ -365,7 +365,7 @@ const Footer = () => {
                     rel="noopener noreferrer nofollow"
                     className="text-blue-600 hover:underline"
                   >
-                    FinCEN.gov{" "}
+                     FinCEN.gov{" "}
                     <img
                       className="icon-globe"
                       src="/img/globe-1.svg"

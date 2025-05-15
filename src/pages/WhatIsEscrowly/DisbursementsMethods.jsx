@@ -64,9 +64,7 @@ const DisbursementsMethods = () => {
                       Escrowly provides secure fund storage, coupled with fast
                       and swift dissemination to the right recipients. The
                       crypto escrow service at Escrowly ensures
-                      {" "}<Link to="/" className="font-weight-nonboldit text-primary-custom">
-                        fund disbursements
-                      </Link>{" "}
+                      {" "}<Link to="/" className="font-weight-nonboldit text-primary-custom"> fund disbursements</Link>{" "}
                       to the correct destinations after completing any
                       transaction for freelancers, investors, business owners,
                       and crypto traders. Our disbursement model uses instant

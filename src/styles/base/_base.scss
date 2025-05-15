@@ -55,7 +55,7 @@
   flex: 1 0 0%;
   padding: 0 10px;
   max-width: 100%;
-  @include mixins.mobile-text-center;
+  @include mixins.mobile-text-center();
 
   &.col-8 {
     flex: 0 0 66.666%;
@@ -75,7 +75,7 @@
 }
 
 .font-weight-nonboldit {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .text-primary-custom {

@@ -63,7 +63,7 @@ const DisbursementsMethods = () => {
                     <p>
                       Escrowly provides secure fund storage, coupled with fast
                       and swift dissemination to the right recipients. The
-                      {" "}<Link to="/crypto-escrow-services" className="font-weight-nonboldit text-primary-custom"> crypto escrow service</Link>{" "} at Escrowly ensuresfund disbursements
+                      {" "}<Link to="/crypto-escrow-services" className="font-weight-nonboldit text-primary-custom"> crypto escrow service</Link>{" "} at Escrowly ensures fund disbursements
                       to the correct destinations after completing any
                       transaction for freelancers, investors, business owners,
                       and crypto traders. Our disbursement model uses instant
@@ -213,7 +213,7 @@ const DisbursementsMethods = () => {
                     </p>
                     <h3>Get Paid the Escrowly Way</h3>
                     <p>
-                      Escrowly helps users avoid payment trouble and protects
+                      Escrowly helps users avoid payment trouble and{" "}<Link to="/buyer-seller-broker-protection" className="font-weight-nonboldit text-primary-custom"> protects</Link>{" "}
                       them from missing crypto transfers. Our payment
                       distribution system uses next-generation technologies for
                       international business deals.

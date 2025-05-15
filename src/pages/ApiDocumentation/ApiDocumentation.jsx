@@ -70,7 +70,7 @@ const ApiDocumentation = () => {
                                 />
                                 <div className="col api-documentation-content">
                                     <SectionHeader 
-                                        label="API Documentation"
+                                        label="Escrowly API Documentation"
                                         title="API Documentation"
                                         className=""
                                     />

@@ -7,14 +7,14 @@ import ServiceCard from "../components/ServiceCard/ServiceCard";
 const GetStarted = () => (
     <>
         <Helmet>
-            <title>Best Crypto Escrow - Escrowly</title>
-            <meta name="description" content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders." />
-            <meta name="keywords" content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate" />
-            <meta name="author" content="Escrowly Crypto Escrow Team" />
-            <meta property="og:title" content="Escrowly – Buy & Sell Online Safely with Crypto" />
-            <meta property="og:description" content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets." />
+            <title>Get Started| Trusted Crypto Escrow Services with Escrowly.com</title>
+            <meta name="description" content="Start using Escrowly to securely buy, sell, or exchange assets with crypto escrow. Protect domain names, vehicles, real estate, luxury goods, and more. Get started in minutes." />
+            <meta name="keywords" content="crypto escrow, Escrowly, secure crypto transactions, USDT escrow, USDC escrow, domain escrow, vehicle escrow, real estate escrow, milestone escrow, digital goods escrow, luxury item escrow" />
+            <meta name="author" content="Escrowly Team" />
+            <meta property="og:title" content="Get Started with Escrowly.com | The Global Leader in Crypto Escrow" />
+            <meta property="og:description" content="Join Escrowly to protect your crypto transactions. Secure deals for domains, vehicles, real estate, and more with trusted USDT and USDC escrow." />
             <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-            <meta property="og:url" content="https://escrowly.com" />
+            <meta property="og:url" content="https://escrowly.com/get-started" />
             <meta name="twitter:card" content="summary_large_image" />
         </Helmet>
         <div>
@@ -30,8 +30,8 @@ const GetStarted = () => (
 <section className="section-escrowly-services">
         <div className="container">
             <SectionHeader 
-                label="Escrowly Services"
-                title="Secure & Transparent Crypto Escrow Services"
+                label="Get Started"
+                title="Secure & Transparent Crypto Escrow – Get Started Today"
                 className=""
             />
             <div className="escrowly-services-list row">

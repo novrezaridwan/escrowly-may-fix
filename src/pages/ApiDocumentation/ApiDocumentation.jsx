@@ -40,7 +40,7 @@ const ApiDocumentation = () => {
     return (
         <>
             <Helmet>
-                <title>Integration Guide with Code Examples | Escrowly API Documentation</title>
+                <title>Integration Guide with Code Examples | Escrowly.com API Documentation</title>
                 <meta name="description" content="Explore the full Escrowly API documentation. Get access to integration codes, API endpoints, authentication guides, example requests, and implementation tips for secure escrow transactions." />
                 <meta name="keywords" content="Escrowly API documentation, crypto escrow API, API integration guide, escrow API endpoints, escrow code examples, embed escrow, API authentication, escrow SDK, developer documentation, secure payments integration" />
                 <meta name="author" content="Escrowly Developer Team" />

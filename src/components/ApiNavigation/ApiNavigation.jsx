@@ -79,9 +79,9 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                     <ul>
                         <ApiNavItem
                             icon="/img/api-icon-file.svg"
-                            title="Escrow API Documentation"
+                            title="Escrowly API Documentation"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -96,7 +96,7 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                             icon="/img/api-icon-chart.svg"
                             title="Managing Transactions"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -109,7 +109,7 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                             icon="/img/api-icon-zap.svg"
                             title="Additional Features"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -121,9 +121,9 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                         <li className="separator"></li>
                         <ApiNavItem
                             icon="/img/api-icon-target.svg"
-                            title="Escrow Offer"
+                            title="Escrowly Offer"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -134,9 +134,9 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                         />
                         <ApiNavItem
                             icon="/img/api-icon-coins-bitcoin.svg"
-                            title="Escrow Pay"
+                            title="Escrowly Pay"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -147,9 +147,9 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                         />
                         <ApiNavItem
                             icon="/img/api-icon-file.svg"
-                            title="Escrow Button"
+                            title="Escrowly Button"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -163,7 +163,7 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                             icon="/img/api-icon-setting.svg"
                             title="Setup & Plugins"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",
@@ -176,7 +176,7 @@ const ApiNavigation = ({ active, apiNav, setApiNav }) => {
                             icon="/img/api-icon-search.svg"
                             title="Additional Resources"
                             subMenuItems={[
-                                "Escrow API Basics",
+                                "Escrowly API Basics",
                                 "Create a Customer",
                                 "Update a Customer",
                                 "Create a Transaction",

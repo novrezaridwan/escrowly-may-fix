@@ -66,7 +66,7 @@ const DisbursementsMethods = () => {
                       crypto escrow service at Escrowly ensures{" "}
                       <Link
                         to="/"
-                        className="font-weight-bold text-primary-custom"
+                        className="font-weight-nonboldit text-primary-custom"
                       >
                         fund disbursement
                       </Link>{" "}

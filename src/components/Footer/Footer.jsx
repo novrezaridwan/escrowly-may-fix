@@ -331,7 +331,7 @@ const Footer = () => {
                         alt="Trustpilot Logo"
                       />
                       <p>
-                        Based on <a href="https://www.trustpilot.com/review/escrowly.com">588 reviews</a>
+                        Based on <a href="https://www.trustpilot.com/review/escrowly.com" target="_blank">588 reviews</a>
                       </p>
                     </div>
                   </div>

@@ -63,11 +63,8 @@ const DisbursementsMethods = () => {
                     <p>
                       Escrowly provides secure fund storage, coupled with fast
                       and swift dissemination to the right recipients. The
-                      crypto escrow service at Escrowly ensures{" "}
-                      <Link
-                        to="/"
-                        className="font-weight-nonboldit text-primary-custom"
-                      >
+                      crypto escrow service at Escrowly ensures
+                      {" "}<Link to="/" className="font-weight-nonboldit text-primary-custom">
                         fund disbursements
                       </Link>{" "}
                       to the correct destinations after completing any

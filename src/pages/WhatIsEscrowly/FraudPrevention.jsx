@@ -66,7 +66,7 @@ const FraudPrevention = () => {
                                         <img className="w-full h-auto my-4 rounded-lg" src="/images/escrowly-prevent-fraud3.webp" alt="Escrowly Fraud Prevention Fully"/>
                                         <h3>Industry-Leading Security Layers</h3>
                                         <p>The crypto escrow services offered by Escrowly.com operates a bit dissimilar to standard services. Customers gain protection for their crypto transactions through the combined use of multi-factor authentication, SSL encryption, and blockchain tracking systems. All security layers exist to protect users! Our platform remains the first and the best platform that operates only for crypto escrow functions rather than traditional services with crypto attachments. Escrowly incorporates fraud prevention at all stages of operation.</p>
-                                        <h3>Safety First. Always Escrowly.com!</h3>
+                                        <h3>Safety First. Always Escrowly.com</h3>
                                         <ol>
                                             <li>1. Pioneers in crypto escrow</li>
                                             <li>2. The service is reversible using proper contract terms instead of attempts at fraud</li>

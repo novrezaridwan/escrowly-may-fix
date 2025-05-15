@@ -132,7 +132,7 @@ const TermsAndConditions = () => (
                             <p>The United States governs these Terms & Conditions under its legal framework. Any conflicting situations will be solved through binding arbitration at the customers' expense according to previously agreed upon terms. Any needed information about arbitration location and necessary procedures will be provided by Escrowly.</p>
                             <h3>15. Contact Information</h3>
                             <p>If you need legal support or want to contact Escrowly you can reach us either through online channels or by sending a letter to the following address:</p>
-                            <p>Escrowly LLC</p>
+                            <p><strong>Escrowly LLC</strong></p>
                             <p>701 Tillery Street Unit 12 STE 2962, Austin, TX 78702, USA</p>
                             <p>By using Escrowly, you acknowledge and agree to these Terms & Conditions and all linked policies.</p>
                         </div>

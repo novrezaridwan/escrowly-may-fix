@@ -358,14 +358,13 @@ const Footer = () => {
                   Escrowly LLC is a registered Money Services Business (MSB)
                   with FinCEN and complies with all AML/KYC regulations.
                   <br />
-                  We are not a bank or a legal advisory firm.   
-                  <a
+                  We are not a bank or a legal advisory firm. <a
                     href="https://www.fincen.gov/"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="text-blue-600 hover:underline"
                   >
-                     FinCEN.gov{" "}
+                     FinCEN.gov {" "}
                     <img
                       className="icon-globe"
                       src="/img/globe-1.svg"

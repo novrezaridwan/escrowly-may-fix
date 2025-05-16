@@ -232,7 +232,7 @@ const ServicePage = () => (
                                                 <ServiceCard
                                                     icon="/img/service-6.svg"
                                                     title="Stock & Investment Escrow "
-                                                    text="Secure stock trades and asset agreements with trusted crypto escrow services."
+                                                    text="Secure stock trades and asset agreements with trusted escrow services."
                                                     url="/stock-investment-escrow"
                                                 />
                                             </SwiperSlide>

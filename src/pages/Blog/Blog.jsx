@@ -10,26 +10,26 @@ import ChipsFilter from "../../components/ChipFilter/ChipsFilter";
 const Blog = () => (
   <>
     <Helmet>
-      <title>Best Crypto Escrow - Escrowly</title>
+      <title>Crypto Escrow Blog | Secure Bitcoin, Ethereum, USDT Escrow etc | Escrowly.com</title>
       <meta
         name="description"
-        content="Secure your crypto transactions with Escrowly, the trusted escrow service for crypto traders."
+        content="Explore insights on crypto escrow services including Bitcoin, Ethereum, USDT, smart contract escrow, decentralized platforms, NFT transactions, DeFi, token sales, and more. Stay informed with Escrowly's expert crypto security blog."
       />
       <meta
         name="keywords"
-        content="secure crypto escrow, secure transactions, Escrowly, Bitcoin escrow, Ethereum escrow, crypto escrow service, smart contract escrow, blockchain escrow service, crypto escrow for businesses, USDT escrow service, escrow wallet for crypto, secure P2P crypto escrow, escrow for digital items, escrow for domain names, escrow for real estate"
+        content="crypto escrow service, bitcoin escrow service, secure crypto transactions, smart contract escrow, blockchain escrow service, crypto escrow platform, decentralized escrow service, crypto escrow for businesses, USDT escrow service, Ethereum escrow service, escrow wallet for crypto, escrow smart contracts crypto, secure P2P crypto escrow, escrow service for NFT transactions, crypto payment protection escrow, escrow for crypto traders, escrow account for cryptocurrency, how to use escrow for crypto, escrow for crypto mining rigs, escrow for DeFi transactions, cross-border crypto escrow, escrow payment for Bitcoin, escrow for crypto exchanges, best crypto escrow services, escrow for token sales, secure crypto escrow for ICO, escrow for NFT marketplaces"
       />
       <meta name="author" content="Escrowly Crypto Escrow Team" />
       <meta
         property="og:title"
-        content="Escrowly – Buy & Sell Online Safely with Crypto"
+        content="Escrowly.com Blog | The Future of Secure Crypto Escrow Services"
       />
       <meta
         property="og:description"
-        content="Buy and sell online with confidence using Escrowly. Our secure crypto escrow service ensures safe transactions for digital goods, services, and high-value assets."
+        content="Learn everything about crypto escrow – from smart contract safety to domain escrow to real estate crypto cross-border escrow strategies. Trusted insights from Escrowly.com"
       />
       <meta property="og:image" content="https://escrowly.com/og-image.jpg" />
-      <meta property="og:url" content="https://escrowly.com" />
+      <meta property="og:url" content="https://escrowly.com/blog" />
       <meta name="twitter:card" content="summary_large_image" />
     </Helmet>
     <div>
@@ -37,7 +37,7 @@ const Blog = () => (
         <Breadcrumbs
           breadcrumbs={[
             { title: "Home", url: "/" },
-            { title: "Our Blog", url: "/blog" },
+            { title: "Our Blogs", url: "/blog" },
           ]}
         />
 

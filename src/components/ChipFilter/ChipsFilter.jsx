@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./ChipsFilter.scss"; // Gaya terpisah, lihat di bawah
 
 const topics = [
-  "All Topics (237 posts)",
-  "Data Science",
-  "Design",
-  "Development",
-  "Infrastructure",
-  "Writing",
-  "Product",
+  "All Topics (37 posts)",
+  "Crypto Escrow",
+  "Escrow Wallet",
+  "Benefits",
+  "Real Estate Escrow",
+  "Protection",
+  "Domain Escrow",
+  "Security",
 ];
 
 const ChipsFilter = () => {

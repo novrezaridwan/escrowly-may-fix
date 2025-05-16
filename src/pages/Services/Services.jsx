@@ -23,7 +23,7 @@ const Services = () => (
                 <Breadcrumbs 
                     breadcrumbs={[
                         { title: "Home", url: "/" },
-                        { title: "Escrowly Services", url: "/services" },
+                        { title: "Services", url: "/services" },
                     ]}
                 />
     

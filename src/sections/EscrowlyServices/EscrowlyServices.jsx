@@ -8,7 +8,7 @@ const EscrowlyServices = () => (
     <section className="section-escrowly-services">
         <div className="container">
             <SectionHeader 
-                label="Escrowly Services"
+                label="Services"
                 title="Secure & Transparent Crypto Escrow Services"
                 className=""
             />

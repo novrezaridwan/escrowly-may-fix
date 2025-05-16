@@ -187,7 +187,7 @@ const ServicePage3 = () => (
                                                 <ServiceCard
                                                     icon="/img/service-1.svg"
                                                     title="Crypto Escrow Services"
-                                                    text="Secure crypto escrow transactions for goods, services, and contracts with full protection."
+                                                    text="Secure crypto escrow for goods, services, and contracts with full protection."
                                                     url="/crypto-escrow-services"
                                                 />
                                             </SwiperSlide>
@@ -211,7 +211,7 @@ const ServicePage3 = () => (
                                                 <ServiceCard
                                                     icon="/img/service-4.svg"
                                                     title="Milestone Transactions"
-                                                    text="Release payments in stages for large projects with escrow, ensuring trust and accountability."
+                                                    text="Release payments in stages for large projects ensuring trust and accountability."
                                                     url="/milestone-transactions-escrow"
                                                 />
                                             </SwiperSlide>
@@ -219,7 +219,7 @@ const ServicePage3 = () => (
                                                 <ServiceCard
                                                     icon="/img/service-5.svg"
                                                     title="Online Goods & Digital Items"
-                                                    text="Secure online purchases by using crypto escrow, including software and other digital goods."
+                                                    text="Secure online purchases with crypto escrow for software and digital goods."
                                                     url="/online-goods-digital-items-escrow"
                                                 />
                                             </SwiperSlide>

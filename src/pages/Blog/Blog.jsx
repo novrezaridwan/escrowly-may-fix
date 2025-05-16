@@ -44,7 +44,7 @@ const Blog = () => (
         <section className="blog-articles">
           <div className="container">
             <SectionHeader
-              label="Our Blogs"
+              label="Our Blog"
               title="Crypto Insights & Resources"
               className="mb-0"
             />

@@ -4,12 +4,10 @@ import "./ChipsFilter.scss"; // Gaya terpisah, lihat di bawah
 const topics = [
   "All Topics (37 posts)",
   "Crypto Escrow",
-  "Escrow Wallet",
-  "Benefits",
+  "Security",
   "Real Estate Escrow",
   "Protection",
   "Domain Escrow",
-  "Security",
 ];
 
 const ChipsFilter = () => {

@@ -37,7 +37,7 @@ const Blog = () => (
         <Breadcrumbs
           breadcrumbs={[
             { title: "Home", url: "/" },
-            { title: "Our Blogs", url: "/blog" },
+            { title: "Our Blog", url: "/blog" },
           ]}
         />
 

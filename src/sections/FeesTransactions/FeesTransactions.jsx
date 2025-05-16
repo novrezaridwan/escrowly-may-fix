@@ -120,7 +120,7 @@ const FeesTransactions = function () {
                     <span>{row.amount}</span>
                   </div>
                   <div className="td">
-                    <strong>Standard</strong>
+                    <strong>Fee Percentage</strong>
                     <span>{row.standard}</span>
                   </div>
                   <div className="td">

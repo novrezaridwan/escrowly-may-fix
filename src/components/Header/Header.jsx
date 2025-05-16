@@ -391,7 +391,7 @@ const Header = ({ className }) => {
                 <Link to="/fee-calculator">Fee Calculator</Link>
               </li>
               <li>
-                <Link to="/services">Escrowly Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
                 <Link to="/api-documentation">API Documentation</Link>

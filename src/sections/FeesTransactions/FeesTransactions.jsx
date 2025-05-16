@@ -168,15 +168,15 @@ const FeesTransactions = function () {
                     <span>{row.amount}</span>
                   </div>
                   <div className="td">
-                    <strong>Standard</strong>
+                    <strong>Fee Percentage</strong>
                     <span>{row.standard}</span>
                   </div>
                   <div className="td">
-                    <strong>Concierge</strong>
+                    <strong>Minimum Fee</strong>
                     <span>{row.concierge}</span>
                   </div>
                   <div className="td">
-                    <strong>Payment Processing Fee</strong>
+                    <strong>Concierge Charges</strong>
                     <span>{row.noCharges}</span>
                   </div>
                 </div>

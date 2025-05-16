@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="col footer-col-1">
               <div className="footer-contact">
                 <a href="#index" className="logo">
-                  <img src="/img/logo.svg" alt="Escrowly Logo" />
+                  <img src="/img/logo.svg" alt="Escrowly Footer Logo" />
                 </a>
                 <p>The Global Leader In Online Crypto Escrow.</p>
                 <a href="tel:+13024448419" className="phone">
